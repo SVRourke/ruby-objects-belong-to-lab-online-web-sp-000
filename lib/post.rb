@@ -3,6 +3,6 @@ class Post
 
   def initialize(title, author)
     @title = title
-    @author = author.new(author)
+    @author = author
   end
 end
