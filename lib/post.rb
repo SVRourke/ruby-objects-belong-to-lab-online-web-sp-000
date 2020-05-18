@@ -4,4 +4,5 @@ class Post
   def initialize(title, author)
     @title = title
     @author = author.new(author)
+  end
 end
